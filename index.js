@@ -10,8 +10,8 @@ randomNum1 = Math.ceil(randomNum1);
 randomNum2 = Math.ceil(randomNum2);
 
 //Displays the dice roll everytime the browser is refreshed
-document.querySelector(".img1").setAttribute("src", "images/dice" + randomNum1 + ".png");
-document.querySelector(".img2").setAttribute("src", "images/dice" + randomNum2 + ".png");
+document.querySelector(".img1").setAttribute("src", "dice" + randomNum1 + ".png");
+document.querySelector(".img2").setAttribute("src", "dice" + randomNum2 + ".png");
 
 
 
